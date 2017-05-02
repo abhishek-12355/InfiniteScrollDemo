@@ -1,0 +1,9 @@
+<div>
+    <div><h1>Infinite Scroll Demo</h1></div>
+    <div class="search-results"
+         infinite-scroll
+         [infiniteScrollDistance]="2"
+         [infiniteScrollThrottle]="500"
+         (scrolled)="onScroll()">
+    </div>
+</div>
